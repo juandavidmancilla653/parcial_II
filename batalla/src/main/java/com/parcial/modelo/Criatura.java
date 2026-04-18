@@ -26,9 +26,4 @@ public abstract class Criatura {
     public int getSalud() {
         return salud;
     }
-
-    public void volar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'volar'");
-    }
 }

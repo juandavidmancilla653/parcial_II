@@ -10,7 +10,7 @@ public class dragon extends Criatura implements Volador {
 
     @Override
     public void atacar(Criatura objetivo) {
-        int daño = fuerza * 2;
+        int daño = 40;
         System.out.println(nombre + " lanza fuego y causa " + daño + " de daño");
         objetivo.defender(daño);
     }
