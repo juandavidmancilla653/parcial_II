@@ -10,8 +10,14 @@ public class CriaturaTest {
 
     @Test
     public void testEstaViva() {
-        dragon dragon = new dragon(null, 0, 0);
+        dragon dragon = new dragon("Draco", 100, 20);
         assertTrue(dragon.estaViva());
+    }
+
+    @Test
+    public void testEstaMuerta() {
+        dragon dragon = new dragon("Draco", 0, 20);
+        assertFalse(dragon.estaViva());
     }
 
     @Test
@@ -23,7 +29,7 @@ public class CriaturaTest {
 
     @Test
     public void testAtaqueDragon() {
-        dragon dragon = new dragon(null, 0, 0);
+        dragon dragon = new dragon("Smaug", 100, 20);
         mago mago = new mago("Merlin", 100, 10);
 
         dragon.atacar(mago);
