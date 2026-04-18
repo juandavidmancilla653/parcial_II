@@ -1,4 +1,4 @@
-package com.parcial.modelo;
+
 
 public abstract class Criatura {
     protected String nombre;
@@ -26,4 +26,10 @@ public abstract class Criatura {
     public int getSalud() {
         return salud;
     }
+
+    public void volar() {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'volar'");
+    }
 }
+
