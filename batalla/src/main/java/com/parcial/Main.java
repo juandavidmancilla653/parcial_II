@@ -3,6 +3,7 @@ package com.parcial;
 import com.parcial.modelo.*;
 
 public class Main {
+
     public static void main(String[] args) {
 
         
@@ -11,7 +12,7 @@ public class Main {
         guerrero guerrero = new guerrero("Conan", 120, 18);
 
     
-        arma espada = new arma( 10);
+        Arma espada = new Arma(10);
         guerrero.equiparArma(espada);
 
     
@@ -47,3 +48,6 @@ public class Main {
         }
     }
 }
+
+
+// cambio para pull request

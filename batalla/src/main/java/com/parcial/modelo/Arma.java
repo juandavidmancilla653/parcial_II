@@ -1,9 +1,9 @@
 package com.parcial.modelo;
 
-public class arma {
+public class Arma {
     private int dañoAdicional;
 
-    public arma(int dañoAdicional) {
+    public Arma(int dañoAdicional) {
         this.dañoAdicional = dañoAdicional;
     }
 
