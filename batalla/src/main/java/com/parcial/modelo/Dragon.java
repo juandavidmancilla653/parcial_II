@@ -1,5 +1,5 @@
-
-
+package com.parcial.modelo;
+import com.parcial.interfaces.Volador;
 public class Dragon extends Criatura implements Volador {
 
     public Dragon(String nombre, int salud, int fuerza) {

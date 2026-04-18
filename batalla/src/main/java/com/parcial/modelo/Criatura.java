@@ -1,4 +1,4 @@
-
+package com.parcial.modelo;
 
 public abstract class Criatura {
     protected String nombre;
