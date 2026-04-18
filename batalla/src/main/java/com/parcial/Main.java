@@ -5,16 +5,16 @@ import com.parcial.modelo.*;
 public class Main {
     public static void main(String[] args) {
 
-        // Crear criaturas
+        
         dragon dragon = new dragon("Draco", 100, 20);
         mago mago = new mago("Merlin", 80, 15);
         guerrero guerrero = new guerrero("Conan", 120, 18);
 
-        // Crear arma y equipar
+    
         arma espada = new arma( 10);
         guerrero.equiparArma(espada);
 
-        // Usar habilidades
+    
         dragon.volar();
         mago.lanzarHechizo();
 
