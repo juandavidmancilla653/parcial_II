@@ -1,0 +1,9 @@
+com\parcial\Interfaces\magico.class
+com\parcial\Interfaces\Volador.class
+com\parcial\modelo\mago.class
+com\parcial\modelo\dragon.class
+com\parcial\Main.class
+com\parcial\modelo\Batalla.class
+com\parcial\modelo\guerrero.class
+com\parcial\modelo\arma.class
+com\parcial\modelo\Criatura.class
