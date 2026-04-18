@@ -1,4 +1,6 @@
+package com.parcial.modelo;
 
+import com.parcial.interfaces.magico;
 
 public class mago extends Criatura implements magico {
 
