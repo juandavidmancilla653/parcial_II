@@ -2,13 +2,13 @@ package com.parcial.modelo;
 
 public class guerrero extends Criatura {
 
-    private arma arma;
+    private Arma arma;
 
     public guerrero(String nombre, int salud, int fuerza) {
         super(nombre, salud, fuerza);
     }
 
-    public void equiparArma(arma arma) {
+    public void equiparArma(Arma arma) {
         this.arma = arma;
     }
 
